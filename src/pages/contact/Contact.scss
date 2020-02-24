@@ -1,0 +1,8 @@
+.contact-container {
+    margin-top: 10vw;
+    text-align: center;
+
+    @media screen and (max-width: 800px){
+        margin-top: 50vw;
+    }
+}
