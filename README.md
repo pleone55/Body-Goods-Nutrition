@@ -1,3 +1,6 @@
+## About Project
+Simple E-commerce website based off one of the nutrition store that I go to. Landing page shows the different categories available for the customer to view depending on their needs. Customer is able to sign in and authenticate sign in with Google using Firebase. Customer is able to view the collection preview of products provided, limiting 4 to each category on the shopping landing page. Implements Redux to allow the customer to add and delete items from the cart. Redux is used to hold the user in session until they hit the sign out link. Redux is also used to hold the items in the cart if the the customer were to refresh the page. Shopping cart icon updates in real time allowing customer to see their cart items with a dropdown before proceeding to checkout screen. Checkout implements the Stripe API (test mode) to allow the customer to "checkout" as soon as they finish shopping.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
